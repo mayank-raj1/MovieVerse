@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieverse.MoviesController">
+   <top>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="movies" layoutX="457.0" layoutY="13.0" mnemonicParsing="false" text="Recommended Movies">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="logOut" layoutX="655.0" layoutY="13.0" mnemonicParsing="false" onAction="#out" text="logOut">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="preference" layoutX="582.0" layoutY="13.0" mnemonicParsing="false" onAction="#goToPreference" text="Preference">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Line endX="580.224365234375" endY="-1.52587890625E-5" layoutX="115.0" layoutY="45.0" startX="-100.0" />
+            <Label layoutX="295.0" layoutY="3.0" prefHeight="25.0" prefWidth="130.0" text="Movies">
+               <font>
+                  <Font name="Georgia" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <ScrollPane prefHeight="467.0" prefWidth="727.0" style="-fx-background-color: #32a852;" BorderPane.alignment="CENTER">
+         <content>
+            <FlowPane fx:id="movieFlowPane" prefWidth="600.0" vgap="10.0" hgap="10.0">
+
+            </FlowPane>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

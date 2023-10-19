@@ -1,0 +1,44 @@
+Inception,2010,4.5,Sci-Fi Action,inception.jpg
+The Shawshank Redemption,1994,4.8,Drama Crime,redemption.jpg
+Pulp Fiction,1994,4.7,Crime Drama,pulpFiction.jpg
+The Dark Knight,2008,4.6,Action Thriller,batmanDarkNight.jpg
+Forrest Gump,1994,4.4,Drama Romance,forrestGump.jpg
+Fight Club,1999,4.6,Drama Thriller,fightClub.jpg
+The Lord of the Rings: The Fellowship of the Ring,2001,4.7,Adventure Fantasy,lotrTheFellowshipOfTheRing.jpg
+The Matrix,1999,4.5,Sci-Fi Action,matrix.jpg
+Avengers: Endgame,2019,4.4,Action Adventure,endgame.jpg
+Titanic,1997,4.3,Drama Romance,titanic.png
+Star Wars: Episode IV - A New Hope,1977,4.7,Action Adventure,starWars.jpg
+Jurassic Park,1993,4.2,Adventure Sci-Fi,jurassicPark.jpg
+Inglourious Basterds,2009,4.4,Adventure Drama,ingloriousBastards.jpg
+The Lion King,1994,4.5,Animation Adventure,lionKing.jpg
+The Godfather,1972,4.8,Crime Drama,godfather.jpg
+The Dark Knight Rises,2012,4.5,Action Thriller,batmanDarkNightRises.jpg
+The Avengers,2012,4.3,Action Sci-Fi,avengers.jpg
+The Silence of the Lambs,1991,4.6,Crime Drama,silenceOfTheLambs.jpg
+Interstellar,2014,4.7,Adventure Drama,interestellar.jpg
+Gladiator,2000,4.3,Action Drama,gladiator.jpg
+Saving Private Ryan,1998,4.6,Drama War,ryan.jpg
+The Lord of the Rings: The Return of the King,2003,4.7,Adventure Fantasy,lotrReturnOfTheKing.jpg
+The Wolf of Wall Street,2013,4.4,Biography Crime,wolfOfWallstreet.jpg
+Avatar,2009,4.2,Action Adventure,avatar.jpg
+Schindler's List,1993,4.9,Biography Drama,schindlersList.jpg
+The Big Lebowski,1998,4.2,Comedy Crime,bigLebowski.jpg
+Memento,2000,4.5,Mystery Thriller,memento.jpg
+Blade Runner,1982,4.7,Sci-Fi Thriller,bladeRunner.jpg
+The Social Network,2010,4.3,Biography Drama,socialNetwork.png
+No Country for Old Men,2007,4.6,Crime Drama,noCountryForOldMen.jpg
+The Grand Budapest Hotel,2014,4.5,Adventure Comedy,grandBudapest.jpg
+The Green Mile,1999,4.7,Crime Drama,greenMile.jpg
+Black Panther,2018,4.4,Action Adventure,blackPanther.jpg
+Eternal Sunshine of the Spotless Mind,2004,4.4,Drama Romance,eternalSunshine.jpg
+Deadpool,2016,4.2,Action Comedy,deadpool.png
+The Departed,2006,4.6,Crime Drama,departed.jpg
+The Shape of Water,2017,4.3,Adventure Drama,shapeOfWater.jpg
+The Lord of the Rings: The Two Towers,2002,4.6,Adventure Fantasy,lotrTheTwoTowers.jpg
+Mad Max: Fury Road,2015,4.7,Action Adventure,madMax.jpg
+Toy Story,1995,4.5,Animation Adventure,toyStory.jpg
+The Revenant,2015,4.6,Action Adventure,revenant.jpg
+Jaws,1975,4.2,Adventure Thriller,jaws.jpg
+The Godfather: Part II,1974,4.8,Crime Drama,godfatherPartTwo.jpg
+Spider-Man: Into the Spider-Verse,2018,4.6,Animation Action,spiderman.jpg

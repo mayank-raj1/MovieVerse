@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="269.0" maxWidth="250" minHeight="200.0" minWidth="100.0" prefHeight="262.0" prefWidth="182.0" spacing="5.0" style="-fx-background-color: #1A1A1A;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieverse.MovieCardController">
+    <VBox prefHeight="200.0" prefWidth="100.0" />
+    <VBox fx:id="imageContainer">
+        <StackPane alignment="CENTER" prefHeight="200.0" prefWidth="250.0">
+            <ImageView fx:id="movieImage" fitHeight="218.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                <StackPane.margin>
+                    <Insets top="5.0" />
+                </StackPane.margin></ImageView>
+        </StackPane>
+    </VBox>
+    <HBox fx:id="infoContainer" prefHeight="27.0" prefWidth="111.0" spacing="10.0">
+        <VBox fillWidth="false" maxWidth="73.0" prefHeight="27.0" prefWidth="73.0">
+            <Label fx:id="movieNameLabel" text="Movie Name" textFill="WHITE">
+                <font>
+                    <Font size="10.0" />
+                </font>
+            </Label>
+            <Label fx:id="yearLabel" text="Year" textFill="WHITE">
+                <font>
+                    <Font size="11.0" />
+                </font>
+            </Label>
+        </VBox>
+        <VBox>
+            <Label fx:id="ratingLabel" text="Rating: 4.5" textFill="WHITE">
+                <font>
+                    <Font size="10.0" />
+                </font>
+            </Label>
+            <Label fx:id="genresLabel" text="Action, Adventure" textFill="WHITE">
+                <font>
+                    <Font size="10.0" />
+                </font>
+            </Label>
+        </VBox>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+        </padding>
+    </HBox>
+</VBox>

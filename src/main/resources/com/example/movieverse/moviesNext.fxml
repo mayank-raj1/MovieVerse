@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieverse.MoviesNextController">
+   <top>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="movies" layoutX="498.0" layoutY="11.0" mnemonicParsing="false" text="Movies">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="profile" layoutX="655.0" layoutY="13.0" mnemonicParsing="false" text="Profile">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="recommendations" layoutX="550.0" layoutY="12.0" mnemonicParsing="false" text="Recommendations">
+               <font>
+                  <Font name="Georgia" size="10.0" />
+               </font>
+            </Button>
+            <Line endX="580.224365234375" endY="-1.52587890625E-5" layoutX="115.0" layoutY="45.0" startX="-100.0" />
+            <Label layoutX="295.0" layoutY="3.0" prefHeight="39.0" prefWidth="150.0" text="Movies 2">
+               <font>
+                  <Font name="Georgia" size="33.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="next" layoutX="58.0" layoutY="12.0" onAction="#goNext" text="Next" />
+            <Hyperlink fx:id="last" layoutX="21.0" layoutY="12.0" onAction="#goBack" text="Last" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="467.0" prefWidth="727.0" style="-fx-background-color: #eb4034;" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="447.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="456.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Dark Night" />
+            <Text fill="WHITE" layoutX="456.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Text fill="WHITE" layoutX="318.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="584.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="593.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forrest Gump" />
+            <Text fill="WHITE" layoutX="593.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="169.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="178.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Shawsh..." />
+            <Text fill="WHITE" layoutX="178.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="30.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="39.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inception" />
+            <Text fill="WHITE" layoutX="39.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="310.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="319.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pulp Fiction" />
+            <Text fill="WHITE" layoutX="319.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="446.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="455.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avengers: End..." />
+            <Text fill="WHITE" layoutX="455.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="584.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="592.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titanic" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="168.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="177.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Lord of the ..." />
+            <Text fill="WHITE" layoutX="177.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="29.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="38.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fight Club" />
+            <Text fill="WHITE" layoutX="38.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="309.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+            <Text fill="WHITE" layoutX="318.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Matrix" />
+            <Text fill="WHITE" layoutX="318.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <Text fill="WHITE" layoutX="592.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stars" />
+            <ImageView fx:id="pulpFiction" fitHeight="155.0" fitWidth="148.0" layoutX="310.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/pulpFiction.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="redemption" fitHeight="155.0" fitWidth="148.0" layoutX="170.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/redemption.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="inception" fitHeight="155.0" fitWidth="148.0" layoutX="31.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/inception.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="darkNight" fitHeight="155.0" fitWidth="148.0" layoutX="446.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/batmanDarkNight.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="forrestGump" fitHeight="155.0" fitWidth="148.0" layoutX="584.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/forrestGump.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fightClub" fitHeight="155.0" fitWidth="148.0" layoutX="29.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/fightClub.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lotrFellowship" fitHeight="155.0" fitWidth="148.0" layoutX="168.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/lotrTheFellowshipOfTheRing.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="matrix" fitHeight="155.0" fitWidth="148.0" layoutX="310.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/matrix.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="titanic" fitHeight="155.0" fitWidth="148.0" layoutX="584.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/titanic.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="endgame" fitHeight="155.0" fitWidth="148.0" layoutX="446.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/endgame.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
